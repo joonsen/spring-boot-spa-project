@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+body> header{
+	background-color: aqua;
+	margin: auto;
+	width: 1080px;
+	height: 215px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+body> header> .main_title{
+	
+}
+
+body> header> nav{
+	position: absolute;
+	background-color: blueviolet;
+	display: block;
+	right: 0px;
+	bottom: 0px;
+	text-align: right;
+}
+
+#home{
+	right: 0;
+}
+
+body> main> .section{
+	
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+#guestbook_list{/* container */
+	display:flex;
+	flex-direction:column;	/* column은 위아래배치 */
+	/*flex-wrap:wrap;*/	/* no-wrap이면 줄 안 바뀜 */
+}
+
+.guestbook_items{
+	flex-basis:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-content:space-around;
+}
+
+.guestbook_btn{
+	flex-basis: 1;
+}
+
+.item{
+	background-color:#aaa;
+	padding:20px;
+	min-width:200px;
+	
+}
+.guestbook_btn{
+	text-align: center;
+}
+
+.guestbook_btn input{
+	width: 50px;
+	padding:10px;
+}
+
+.guestbook_items .frm_guestbook{
+	position: relative;
+}
+
+.guestbook_items .frm_guestbook .btnZone{
+	position: absolute;
+	right: 5px;
+	top: 0px;
+}
+.guestbook_items .frm_guestbook .updateZone{
+	visibility: hidden;
+}
+
+/* 암호를 입력하는 model box ----------*/
+#modal{
+	background-color: rgba(0,0,0,.3);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+
+#modal>#content{
+	width:300px;
+	margin: 250px auto;
+	padding:20px;
+	position: relative;
+	background-color: #fff;
+}
+#modal>#contetnt #btnClose{
+	position: absolute;
+	right:2px;
+	top:2px;
+	font-size: 2em;
+	background-color: transparent;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
